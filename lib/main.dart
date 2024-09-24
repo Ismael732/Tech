@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          '7tech',
+          'Início',
           style: TextStyle(color: Colors.white), 
         ),
         backgroundColor: Colors.blue[700],
@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
               child: Center(
                 child: Image.asset(
                   'assets/images/imagemA.png',
-                  width: 150,
+                  width: 180,
                 ),
               ),
             ),
@@ -106,7 +106,7 @@ class HomePage extends StatelessWidget {
         ],
         currentIndex: 0,
         selectedItemColor: Colors.white,
-        unselectedItemColor: Colors.white70,
+        unselectedItemColor: Colors.white,
         onTap: (index) {
 
         },
